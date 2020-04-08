@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Bilder/favicon.ico" type = "image/x-icon">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="Leistungen.html">Leistungen</a></li>
+          <li><a href="Preise.html">Preise</a></li>
+          <li><a href="#">Kontakt</a></li>
+          <li><a href="Impressum.html">Impressum</a></li>
+        </ul>
+      </nav>
+      <h1>Kontakt</h1>
+    </header>
+    <main>
+      <section>
+        <form  action="Danke.html" method="post">
+          <label class="rechtsbündig" for="vname">Vorname:</label>
+          <input type="text" id="vname" name="vname"><br><br>
+          <label class="rechtsbündig"for="nname">Nachname:</label>
+          <input type="text" name="nname"id="nname"><br><br>
+          <label class="rechtsbündig"for="email">Email:</label>
+          <input type="email" name="email" id="email"><br><br>
+          <label class="rechtsbündig"for="firma">Firma:</label>
+          <input type="text" name="firma" id="firma"><br><br>
+          <label class="rechtsbündig"for="telnr">Telefon:</label>
+          <input type="tel" name="telnr" id="telnr"><br><br>
+          <label class="rechtsbündig" for ="Seminar">Seminar</label>
+
+          <input type="radio" name="Seminar" id="Lebensmittelhygiene">
+          <label for="LM">Lebensmittelhygiene</label>
+          <input type="radio" name="Seminar" id="Instrumentendesinfektion">
+          <label for="Instrumentendesinfektion">Instrumentendesinfektion</label>
+          <input type="radio" name="Seminar" id="Hygieneplan">
+          <label for="Hygieneplan">Hygieneplan</label>
+          <input type="radio" name="Seminar" id="Hygienebeauftragte">
+          <label for="Hygienebeauftragte">Weiterbildung: Hygienebeauftragte/r</label>
+          <input type="radio" name="Seminar" id="Kindergarten">
+          <label for="Kindergarten">Hygiene in Kindergärten</label>
+          <input type="radio" name="Seminar" id="Rahmenplan">
+          <label for="Rahmenplan">Rahmenplan</label><br><br>
+          <label for="DatenSpeichern">Dürfen ihre Daten gespeichert werden?</label>
+          <input type="checkbox" name="Daten" id="DatenSpeichern" value=""><br><br>
+          <label class="rechtsbündig"for="Teilnehmer">Teilnehmeranzahl:</label>
+          <select id="Teilnehmer">
+            <option value="1" >1</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+            <option value="5" >5</option>
+            <option value="6" >6</option>
+            <option value="7" >7</option>
+            <option value="8" >8</option>
+            <option value="9" >9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select><br><br>
+          <label class="rechtsbündig" for="Wunschdatum">Wunschdatum:</label>
+          <input type="date" name="Wunschdatum" id=Wunschdatum><br><br>
+          <textarea name="Freitext" rows="6" cols="50"></textarea><br><br>
+          <button type="submit" name="Abschicken">Anfrage abschicken!</button>
+        </form>
+      </section>
+    </main>
+      <footer>
+        <br><br>
+      <p>Haben sie weitere Fragen zu unserem Unternehmen oder zu einem Angebot?
+        <br> <br>Sie erreichen uns telefonisch oder per E-Mail.</p>
+          <div class="Kontakt">Tel: +49 621 234567</div>
+         <div class="Kontakt">Email:<a href="mailto:examplepage@mail.com">examplepage@mail.com</a></div><br><br>
+             <footer> <a href="Impressum.html">Impressum</a>| <a href="index.html">Zurück zur Landing - Page</a> </footer>
+       </footer>
+  </body>
+</html>
